@@ -80,10 +80,10 @@
         Base {
             label = "Base";
             bindings = <
-                  &kp Q             &kp W           &kp E      &kp R         &kp T                       &kp Y                     &kp U     &kp I      &kp O    &kp P
-                  &kp A             &kp S           &kp D      &kp F         &kp G                       &kp H                     &kp J     &kp K      &kp L    &kp SEMI
-&hm LCTRL ESCAPE  &hm LEFT_SHIFT Z  &hm LEFT_WIN X  &kp C      &kp V         &kp B                       &kp N                     &kp M     &kp COMMA  &kp DOT  &kp FSLH  &hm RIGHT_SHIFT APOSTROPHE
-                                                    &lt 1 TAB  &kp LEFT_ALT  &hm RS(LEFT_SHIFT) SPACE    &hm RS(LEFT_SHIFT) SPACE  &kp BSPC  &kp RALT
+                  &kp Q             &kp W           &kp E           &kp R                 &kp T                       &kp Y                     &kp U     &kp I              &kp O    &kp P
+                  &kp A             &kp S           &kp D           &kp F                 &kp G                       &kp H                     &kp J     &kp K              &kp L    &kp SEMI
+&hm LCTRL ESCAPE  &hm LEFT_SHIFT Z  &hm LEFT_WIN X  &kp C           &kp V                 &kp B                       &kp N                     &kp M     &kp COMMA          &kp DOT  &kp FSLH  &hm RIGHT_SHIFT APOSTROPHE
+                                                    &lt 1 LEFT_WIN  &hm LEFT_ALT LA(TAB)  &hm RS(LEFT_SHIFT) SPACE    &hm RS(LEFT_SHIFT) SPACE  &kp BSPC  &lt 2 LC(RS(TAB))
             >;
         };
 
@@ -100,10 +100,10 @@
         Sym {
             label = "Sym";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LBKT  &kp RBKT  &kp END    &kp MINUS  &kp EQUAL
-                        &trans  &trans  &trans    &trans    &trans    &trans
+        &trans  &trans  &trans  &trans  &trans    &trans    &trans       &trans           &trans     &trans
+        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN     &kp UP           &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LC(TAB)  &kp LS(LC(TAB))  &kp END    &kp MINUS  &kp EQUAL
+                        &trans  &trans  &trans    &trans    &trans       &trans
             >;
         };
 
