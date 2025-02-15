@@ -73,8 +73,7 @@
 
         dota_layer {
             bindings = <&to 3>;
-            key-positions = <4 14 25 33 34>;
-            layers = <0>;
+            key-positions = <4 14 25>;
             timeout-ms = <300>;
         };
 
