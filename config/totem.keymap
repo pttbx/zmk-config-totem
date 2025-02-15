@@ -61,7 +61,7 @@
         };
 
         alt-tab {
-            bindings = <&kp LA(Q)>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <0 33>;
             layers = <0>;
         };
@@ -73,14 +73,14 @@
 
         dota_layer {
             bindings = <&to 3>;
-            key-positions = <4 14 25>;
+            key-positions = <7 8 9>;
             timeout-ms = <300>;
+            layers = <2>;
         };
 
         base_layer {
             bindings = <&to 0>;
-            key-positions = <13 12 11 10 16 17 18 19>;
-            timeout-ms = <300>;
+            key-positions = <30 28 29>;
         };
     };
 
