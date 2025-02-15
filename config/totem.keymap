@@ -104,10 +104,10 @@
         Sym {
             label = "Sym";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans    &trans           &trans       &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN         &kp UP       &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LC(RS(TAB))  &kp LC(TAB)  &kp END    &kp MINUS  &kp EQUAL
-                        &trans  &trans  &trans    &trans    &trans           &trans
+        &trans  &trans  &trans  &trans                &trans                   &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+        &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT  &kp DOWN              &kp UP                 &kp RIGHT         &trans
+&trans  &trans  &trans  &trans  &trans                &trans                   &kp HOME  &kp LC(RS(TAB))       &kp LC(TAB)            &kp END           &kp MINUS          &kp EQUAL
+                        &trans  &trans                &trans                   &trans    &trans                &trans
             >;
         };
 
