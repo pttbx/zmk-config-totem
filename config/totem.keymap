@@ -60,12 +60,6 @@
             layers = <0>;
         };
 
-        alt-tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <0 33>;
-            layers = <0>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <18 19>;
