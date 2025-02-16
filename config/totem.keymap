@@ -149,10 +149,10 @@
 
         wasd {
             bindings = <
-        &trans  &trans    &kp UP    &trans     &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans    &trans     &trans    &trans  &trans  &trans
+        &trans           &trans    &kp UP    &trans     &trans         &trans  &trans  &trans  &trans  &trans
+        &kp LC(RS(TAB))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(TAB)    &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans    &trans    &trans     &trans         &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans    &trans     &trans         &trans  &trans  &trans
             >;
 
             label = "wasd_4";
