@@ -88,6 +88,12 @@
             key-positions = <23 33>;
             layers = <3>;
         };
+
+        TAB_as {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -96,10 +102,10 @@
         Base {
             label = "Base";
             bindings = <
-                  &kp Q             &kp W           &kp E           &kp R                 &kp T                       &kp Y                     &kp U     &kp I          &kp O    &kp P
-                  &kp A             &kp S           &kp D           &kp F                 &kp G                       &kp H                     &kp J     &kp K          &kp L    &kp SEMI
-&hm LCTRL ESCAPE  &hm LEFT_SHIFT Z  &hm LEFT_WIN X  &kp C           &kp V                 &kp B                       &kp N                     &kp M     &kp COMMA      &kp DOT  &kp FSLH  &hm RIGHT_SHIFT APOSTROPHE
-                                                    &lt 1 LEFT_WIN  &hm LEFT_ALT LA(TAB)  &hm RS(LEFT_SHIFT) SPACE    &hm RS(LEFT_SHIFT) SPACE  &kp BSPC  &lt 2 LC(TAB)
+                  &kp Q             &kp W           &kp E           &kp R         &kp T                       &kp Y                     &kp U     &kp I      &kp O    &kp P
+                  &kp A             &kp S           &kp D           &kp F         &kp G                       &kp H                     &kp J     &kp K      &kp L    &kp SEMI
+&hm LCTRL ESCAPE  &hm LEFT_SHIFT Z  &hm LEFT_WIN X  &kp C           &kp V         &kp B                       &kp N                     &kp M     &kp COMMA  &kp DOT  &kp FSLH  &hm RIGHT_SHIFT APOSTROPHE
+                                                    &lt 1 LEFT_WIN  &kp LEFT_ALT  &hm RS(LEFT_SHIFT) SPACE    &hm RS(LEFT_SHIFT) SPACE  &kp BSPC  &mo 2
             >;
         };
 
