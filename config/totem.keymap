@@ -76,6 +76,18 @@
             bindings = <&to 0>;
             key-positions = <30 28 29>;
         };
+
+        f3-dota {
+            bindings = <&kp F3>;
+            key-positions = <32 23>;
+            layers = <3>;
+        };
+
+        f4-dota {
+            bindings = <&kp F4>;
+            key-positions = <23 33>;
+            layers = <3>;
+        };
     };
 
     keymap {
