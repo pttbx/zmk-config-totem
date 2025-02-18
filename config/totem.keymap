@@ -63,6 +63,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <18 19>;
+            timeout-ms = <200>;
         };
 
         dota_layer {
