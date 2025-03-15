@@ -11,6 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define Base        0
@@ -130,10 +131,10 @@
         Nav_Shortcuts {
             label = "Nav_2";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-        &trans  &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN              &kp UP                 &kp RIGHT         &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME   &kp LC(RS(TAB))       &kp LC(TAB)            &kp END           &kp MINUS          &kp EQUAL
-                        &trans  &trans  &trans    &trans     &trans                &trans
+        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+        &trans        &trans        &trans        &trans  &trans    &kp LEFT   &kp DOWN              &kp UP                 &kp RIGHT         &kp BACKSLASH
+&trans  &trans        &trans        &trans        &trans  &trans    &kp HOME   &kp LC(RS(TAB))       &kp LC(TAB)            &kp END           &kp MINUS          &kp EQUAL
+                                    &trans        &trans  &trans    &trans     &trans                &trans
             >;
         };
 
