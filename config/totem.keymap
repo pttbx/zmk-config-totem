@@ -55,16 +55,9 @@
     combos {
         compatible = "zmk,combos";
 
-        TAB_qw {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-            layers = <0>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <18 19>;
-            timeout-ms = <100>;
         };
 
         dota_layer {
